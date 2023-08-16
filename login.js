@@ -9,9 +9,10 @@ document.getElementById('submit-button').addEventListener('click',function(){
   //dont check email and password this is for just learninf
 
   if(email=== 'mtahbib@gmail.com' && password==='raheeq'){
-    console.log('valid user')}
+    
+    window.location.href="bank.html"}
 
     else
-    console.log("invalid user")
+    alert("invalid user")
   
 })
